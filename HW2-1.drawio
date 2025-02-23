@@ -1,11 +1,57 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="EX5S67MTvYUlh8esncFe">
-    <mxGraphModel dx="1242" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="452" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OgAwFw7lcP7xvMWF0Xat-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="230" y="130" width="50" height="30" as="geometry" />
+        <mxCell id="OgAwFw7lcP7xvMWF0Xat-1" value="Department (&lt;u&gt;DID,&lt;/u&gt;&amp;nbsp;DepName, PManagerName)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="100" y="110" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z8WSyv1s5nYKBchTO-Nz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z8WSyv1s5nYKBchTO-Nz-2" target="OgAwFw7lcP7xvMWF0Xat-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="170" />
+              <mxPoint x="630" y="170" />
+              <mxPoint x="630" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z8WSyv1s5nYKBchTO-Nz-2" value="Physician (&lt;u&gt;DrID,&lt;/u&gt;&amp;nbsp;DrName, DrGender, DrPhoneNum, Specialty, YearsOfService, DepartmentID)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="1030" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z8WSyv1s5nYKBchTO-Nz-3" value="Patient (&lt;u&gt;PID,&lt;/u&gt;&amp;nbsp;PName, PAge, HealthPlan, DoctorID)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z8WSyv1s5nYKBchTO-Nz-4" value="ContactPerson (&lt;u&gt;CName&lt;/u&gt;, Relationship, CPhoneNum, PersonID)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z8WSyv1s5nYKBchTO-Nz-5" value="TreatmentAppointment (TmtDate, TmtDetail, NextAppointment)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="120" y="460" width="690" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z8WSyv1s5nYKBchTO-Nz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z8WSyv1s5nYKBchTO-Nz-3" target="z8WSyv1s5nYKBchTO-Nz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="255" />
+              <mxPoint x="1150" y="255" />
+              <mxPoint x="1150" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z8WSyv1s5nYKBchTO-Nz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OgAwFw7lcP7xvMWF0Xat-1" target="z8WSyv1s5nYKBchTO-Nz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="170" />
+              <mxPoint x="1150" y="170" />
+              <mxPoint x="1150" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z8WSyv1s5nYKBchTO-Nz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.442;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z8WSyv1s5nYKBchTO-Nz-4" target="z8WSyv1s5nYKBchTO-Nz-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="298" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
