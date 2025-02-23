@@ -1,17 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="GCvu8gVz_YOpY6ZFEGP7">
-    <mxGraphModel dx="635" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="755" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gIDY61keDisGAkqXsgGn-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;BOOK (&lt;u&gt;BookID&lt;/u&gt;, Shelf, Author)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="140" width="350" height="30" as="geometry" />
+          <mxGeometry x="200" y="140" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gIDY61keDisGAkqXsgGn-5" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;BORROWER (&lt;u&gt;CitizenID&lt;/u&gt;, Name, Address, TelNum)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="230" width="540" height="30" as="geometry" />
+        <mxCell id="gIDY61keDisGAkqXsgGn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gIDY61keDisGAkqXsgGn-5" target="gIDY61keDisGAkqXsgGn-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIDY61keDisGAkqXsgGn-5" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;BORROWER (&lt;u&gt;CitizenID&lt;/u&gt;, Name, Address, TelNum, BooksID)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="650" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gIDY61keDisGAkqXsgGn-6" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;STUDENT (&lt;u&gt;CitizenID&lt;/u&gt;, Name, Address, TelNum, StudentID, Faculty)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="320" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gIDY61keDisGAkqXsgGn-9" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;PROFESSOR (&lt;u&gt;CitizenID&lt;/u&gt;, Name, Address, TelNum, ProfessorID, Faculty)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gIDY61keDisGAkqXsgGn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.821;exitY=-0.074;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gIDY61keDisGAkqXsgGn-10" target="gIDY61keDisGAkqXsgGn-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="808" y="430" />
+              <mxPoint x="990" y="430" />
+              <mxPoint x="990" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIDY61keDisGAkqXsgGn-10" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;BORROWLIST (BorrowDate, ReturnDate, Penalty, BookBorrowedID)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="460" width="740" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
